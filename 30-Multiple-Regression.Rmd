@@ -406,9 +406,9 @@ The data set of interest is `Credit`. Use the help menu to read about the variab
 
 ```{r}
 glimpse(Credit)
-```
+```  
 
-Notice that `ID` is being treated as an integer. We could change it to a character since it is a label, but for our work in this chapter we will not bother. 
+Notice that `ID` is being treated as an integer. We could change it to a character since it is a label, but for our work in this chapter we will not bother.  
 
 Suppose we suspected that there is a relationship between `Balance`, the response, and the predictors `Income` and `Student`. Note: we actually are using this model for educational purposes and did not go through a model selection process. 
 

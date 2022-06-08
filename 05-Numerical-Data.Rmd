@@ -155,6 +155,7 @@ These binned counts are plotted as bars in Figure \@ref(fig:hist5-fig) into what
 ```{r hist5-fig,echo=FALSE,fig.cap="A histogram of `num_char`. This distribution is very strongly skewed to the right."}
 email50 %>%
    gf_histogram(~num_char,binwidth = 5,boundary=0,xlab="The Number of Characters (in thousands)",color="black",fill="cyan") %>%
+   gf_histogram(~num_char,binwidth = 5,boundary=0,xlab="The Number of Characters (in thousands)") %>%
    gf_theme(theme_classic())
 ```
 

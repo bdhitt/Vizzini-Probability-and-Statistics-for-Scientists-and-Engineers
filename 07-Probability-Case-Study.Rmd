@@ -25,7 +25,7 @@ For this block we will focus just on probability models. To apply a probability 
 
 1. Select the experiment and its possible outcomes.
 2. Have probability values for the outcomes which may include **parameters** that determine the probabilities.
-3. Understand the assumptions behind the model
+3. Understand the assumptions behind the model.  
 
 
 ## Case study
